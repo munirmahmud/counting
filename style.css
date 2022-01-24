@@ -9,11 +9,13 @@ body{
     width: 100%;
     background-repeat: no-repeat;
     height: 100vh;
+    position: relative;
 }
 .hero{
     position: absolute;
-    top: 40%;
-    left: 40%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%)
 }
 .header{
     padding: 0px 50px;
@@ -24,31 +26,16 @@ body{
 .number{
     text-align: center;
 }
-.btn_decrement{
+.btn {
     padding: 10px 20px;
     background-color: gray;
     border-radius: 5px;
     border: none;
 }
-.btn_decrement:hover{
-    background-color: aqua;
-}   
 .btn_reset{
     padding: 10px 40px;
-    background-color: gray;
-    border-radius: 5px;
-    border: none;
 }
-.btn_reset:hover{
-    background-color: aqua;
-}   
 
-.btn_increment{
-    padding: 10px 20px;
-    background-color: gray;
-    border-radius: 5px;
-    border: none;
-}
-.btn_increment:hover{
+.btn:hover{
     background-color: aqua;
 }   
